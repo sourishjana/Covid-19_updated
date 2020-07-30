@@ -113,7 +113,7 @@ span{
 }
 
 .shadow img{
-    height: 60%;
+    height: 55%;
     width: 100%;
 }
 
@@ -145,6 +145,7 @@ span{
         padding-left: 3rem;
     }
     .shadow img {
+        height: 70%;
         width: 100%;
     }
     .shadow{
