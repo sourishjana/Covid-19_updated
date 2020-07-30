@@ -39,7 +39,7 @@ img { max-width: 100%; }
 }
 
 .secondrow{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 60px;
 }
 
@@ -83,7 +83,7 @@ p{
 }
 
 .safety{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .numbers{
@@ -161,7 +161,7 @@ span{
         color: #d81b60;  
         font-size: 6rem;
         line-height: 0.9;
-        text-align: center;
+        text-align: center; 
       } */
       .container h3{
         font-size: 1.7rem;
@@ -179,9 +179,12 @@ span{
         height: 65%;
         width: 100%;
     }
+    /* .shadow{
+        height:1600px;
+    } */
     .shadow{
         height:1600px;
-        
+        max-height: 1360px;
     }
     .safety{
         margin-bottom: 0;
@@ -195,14 +198,38 @@ span{
         justify-content: center;
     }
     .secondrow{
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 60px;
     }
 
 }
 
+@media only screen and (max-width: 300px){
+    .firstrow {
+        position: relative; 
+        height: 20rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        position: relative;
+        color: #d81b60;  
+        font-size: 2rem;
+        line-height: 0.9;
+        text-align: center;
+        font-weight: 600;
+    }
+    .firstrow h3{
+        position: relative;
+        text-align: center;
+        font-size: 1rem;
+        color: black !important;
+    }
+}
 
-@media only screen and (max-width: 480px) and (min-width:300px){
+@media only screen and (max-width: 380px) and (min-width:300px){
     .firstrow h3{
         position: relative;
         text-align: center;
@@ -235,10 +262,11 @@ span{
     }
     .shadow{
         height:1600px;
-        
+        max-height: 1390px;
     }
     .safety{
-        margin-bottom: 0;
+        width: 500px;
+        /* max-height: 50px; */
     }
     .firstrow {
         position: relative; 
@@ -252,4 +280,59 @@ span{
         margin-top: 20px;
         margin-bottom: 60px;
     }
+
+}
+
+@media only screen and (max-width: 480px) and (min-width:380px){
+    .firstrow h3{
+        position: relative;
+        text-align: center;
+        font-size: 2rem;
+        color: black !important;
+    }
+    h1 {
+        position: relative;
+        color: #d81b60;  
+        font-size: 2rem;
+        line-height: 0.9;
+        text-align: center;
+        font-weight: 600;
+      }
+      .container h3{
+        font-size: 1.7rem;
+        color: #4dd0e1;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .col-11{
+        padding-left: 3rem;
+    }
+    .shadow img {
+        height: 65%;
+        width: 100%;
+    }
+    .shadow{
+        height:1600px;
+        max-height: 1350px;
+    }
+    .safety{
+        width: 500px;
+        /* max-height: 50px; */
+    }
+    .firstrow {
+        position: relative; 
+        height: 20rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondrow{
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
 }
