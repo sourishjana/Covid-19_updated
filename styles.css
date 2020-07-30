@@ -4,8 +4,10 @@
 }
 
 body{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
+
+img { max-width: 100%; }
 
 .heading__1{
     font-family: 'Roboto Mono', monospace;
@@ -44,7 +46,6 @@ h1 {
   font-size: 6rem;
   line-height: 0.9;
   text-align: center;
-  
 }
 
 .thirdrow{
@@ -74,7 +75,7 @@ p{
 }
 
 .heading__4{
-    margin-bottom: 100px;
+    margin-bottom:0;
     margin-top: 60px;
 }
 
@@ -136,6 +137,67 @@ span{
         width: 100%;
     }
 }
+
+
+@media only screen and (max-width: 769px) and (min-width:480px){
+    .firstrow h3{
+        position: relative;
+        text-align: center;
+        font-size: 2rem;
+        color: black !important;
+    }
+    .heading__2 {
+        color: #d81b60;  
+        font-size: 5rem;
+        line-height: 0.9;
+        text-align: center;
+        font-weight: 500;
+      }
+      /* h1 {
+        margin-top: 20px;
+        color: #d81b60;  
+        font-size: 6rem;
+        line-height: 0.9;
+        text-align: center;
+      } */
+      .container h3{
+        font-size: 1.7rem;
+        color: #4dd0e1;
+        font-weight: 700;
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .col-11{
+        padding-left: 3rem;
+    }
+    .shadow img {
+        height: 65%;
+        width: 100%;
+    }
+    .shadow{
+        height:1600px;
+        
+    }
+    .safety{
+        margin-bottom: 0;
+    }
+    .firstrow {
+        position: relative; 
+        height: 20rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondrow{
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+}
+
 
 @media only screen and (max-width: 480px) and (min-width:376px){
     .firstrow h3{
