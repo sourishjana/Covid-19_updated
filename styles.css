@@ -137,7 +137,7 @@ span{
     }
 }
 
-@media only screen and (max-width: 425px) and (min-width:376px){
+@media only screen and (max-width: 480px) and (min-width:376px){
     .firstrow h3{
         position: relative;
         text-align: center;
